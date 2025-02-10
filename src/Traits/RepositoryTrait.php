@@ -22,6 +22,8 @@ namespace Cartalyst\Support\Traits;
 
 trait RepositoryTrait
 {
+    protected $model;
+
     /**
      * Create a new instance of the model.
      *
